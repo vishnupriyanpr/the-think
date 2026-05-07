@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const helmet = require("helmet");
@@ -56,15 +57,18 @@ app.use(express.json());
 app.use("/api/problems", problemRoutes);
 
 // Health check
-app.get("/", (req, res) => {
+app.get("/api/health", (req, res) => {
   res.json({ message: "The Think API is running", status: "healthy" });
 });
 
-// --------------- Error Handling ---------------
+// --------------- Frontend (Production) ---------------
 
-// 404 handler for unknown routes
-app.use((req, res) => {
-  res.status(404).json({ message: "Route not found" });
+const frontendDist = path.join(__dirname, "..", "frontend", "dist");
+app.use(express.static(frontendDist));
+
+// SPA fallback — all non-API routes serve index.html for React Router
+app.get("*", (req, res) => {
+  res.sendFile(path.join(frontendDist, "index.html"));
 });
 
 // Global error handler
