@@ -1,8 +1,16 @@
-# The Think 🤔
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/195a2553-45a3-46c6-ad42-a01a740f894b" alt="The Think Screenshot" />
+</p>
+
+---
+
+
 
 **The Think** is a full-stack SaaS problem discovery platform built to help founders find high-impact startup ideas. It automatically aggregates real-world problems from sources like Razorpay's *Fix My Itch*, scores them for SaaS viability, and presents them in a beautiful, highly-interactive neobrutalist UI.
 
-![The Think Screenshot](https://raw.githubusercontent.com/vishnupriyanpr/the-think/main/project_details.md) *(Add your screenshot here)*
+<img width="1897" height="1115" alt="image" src="https://github.com/user-attachments/assets/3813ac67-1549-4c86-af66-02304c764a40" />
+
 
 ##  Key Features
 
