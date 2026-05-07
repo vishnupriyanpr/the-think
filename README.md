@@ -14,13 +14,13 @@
 
 ##  Key Features
 
-- ** Automated Data Pipeline**: Continuously syncs live data from external sources (e.g., Razorpay Fix My Itch) every 10 minutes using a custom HTML & Framer JSON scraper.
-- ** SaaS Viability Scoring**: Uses an intelligent heuristic algorithm to analyze problem descriptions and assign a 0-100 score based on B2B focus, recurring pain points, and solution potential.
-- ** Neobrutalist Design System**: A custom-built, vibrant, and highly interactive UI featuring hard shadows, bold typography (Archivo Black), and micro-animations.
-- ** Advanced Filtering & Search**: Client-side debounced search combined with server-side pagination, sorting, and dynamic domain categorization.
-- ** Production-Ready Backend**: Hardened Express.js API with Helmet security headers, rate-limiting (100 req/15min), and strict input validation/sanitization.
+- **Automated Data Pipeline**: Continuously syncs live data from external sources (e.g., Razorpay Fix My Itch) every 10 minutes using a custom HTML & Framer JSON scraper.
+- **SaaS Viability Scoring**: Uses an intelligent heuristic algorithm to analyze problem descriptions and assign a 0-100 score based on B2B focus, recurring pain points, and solution potential.
+- **Neobrutalist Design System**: A custom-built, vibrant, and highly interactive UI featuring hard shadows, bold typography (Archivo Black), and micro-animations.
+- **Advanced Filtering & Search**: Client-side debounced search combined with server-side pagination, sorting, and dynamic domain categorization.
+- **Production-Ready Backend**: Hardened Express.js API with Helmet security headers, rate-limiting (100 req/15min), and strict input validation/sanitization.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React 18** (via Vite)
